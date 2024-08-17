@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link ref="stylesheet" href="style.css" />
-    <title>Youtube Replica</title>
+    <title>YouTube Replica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="video-preview">
-      <div class="video-thumbnail">
-        <img src="thumbnail/image1.png" />
+      <div class="thumbnail">
+        <img class="video-thumbnail" src="thumbnail/thumbnail-1.webp" />
       </div>
-      <div class="video-details"></div>
+      <div class="video-details">
+        <div class="logo">
+          <img class="channel-logo" src="thumbnail/logo1.png" />
+        </div>
+        <div class="info">
+          <div class="title">
+            <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          </div>
+          <div class="video-stats">
+            <p>Marques Brownlee</p>
+            <p>3.4M views &#xb7; 6 months ago</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
