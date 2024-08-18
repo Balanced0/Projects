@@ -1,10 +1,23 @@
+.video-preview {
+  width: 438px;
+  display: inline-block;
+  margin-left: 12px;
+}
 .video-thumbnail {
   width: 438px;
+  display: inline-block;
+  margin-bottom: 6px;
 }
 
 .logo {
   display: inline-block;
   vertical-align: top;
+  margin-right: 7px;
+}
+
+.channel-logo {
+  border-radius: 100px;
+  width: 36px;
 }
 
 .info {
@@ -14,8 +27,12 @@
 
 .title {
   font-family: Roboto, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
+}
+
+.video-title {
+  margin-top: 0px;
 }
 
 .video-stats {
