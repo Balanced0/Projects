@@ -1,12 +1,10 @@
 .video-preview {
   width: 438px;
-  display: inline-block;
-  margin-left: 12px;
 }
 .video-thumbnail {
-  width: 438px;
   display: inline-block;
   margin-bottom: 6px;
+  width: 100%;
 }
 
 .logo {
@@ -40,4 +38,15 @@
   font-size: 12px;
   line-height: 6px;
   color: rgb(96, 96, 96);
+}
+
+.video-details {
+  background-color: blanchedalmond;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 50px;
 }
