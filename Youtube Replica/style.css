@@ -3,7 +3,7 @@ body {
 }
 
 .video-preview {
-  width: 438px;
+  width: 100%;
 }
 .video-thumbnail {
   display: inline-block;
@@ -55,7 +55,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(346.984px, 1fr));
   column-gap: 15px;
-  row-gap: 50px;
+  row-gap: 30px;
 }
