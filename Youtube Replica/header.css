@@ -6,23 +6,24 @@
 }
 
 .left-section {
-  background-color: aqua;
   width: 160px;
   display: flex;
   align-items: center;
 }
 
 .middle-section {
-  background-color: pink;
   flex: 1;
   margin-left: 260px;
   margin-right: 210px;
   max-width: 500px;
+  display: flex;
+  align-items: center;
 }
 
 .right-section {
-  background-color: aqua;
-  width: 200px;
+  width: 210px;
+  display: flex;
+  align-items: center;
 }
 
 .option-menu {
@@ -33,4 +34,75 @@
 .YouTube {
   width: 86px;
   padding-left: 19px;
+}
+
+.upload-icon {
+  width: 24px;
+  margin-right: 16px;
+}
+
+.youtube-apps {
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.notification {
+  width: 24px;
+  margin-right: 10px;
+  margin-left: 16px;
+}
+
+.account-logo {
+  width: 32px;
+  margin-left: 16px;
+  border-radius: 16px;
+}
+
+.searchbar {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  flex: 1;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  box-shadow: rgb(238, 238, 238) 0px 1px 2px 0px inset;
+  width: 0;
+}
+
+.searchbar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.glass-logo {
+  width: 24px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.mic-logo {
+  width: 24px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.magnifying {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  margin-left: -1px;
+}
+
+.microphone {
+  margin-left: 8px;
+  border-width: 0px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 1000px;
 }
