@@ -8,4 +8,26 @@
   border-right-width: 1px;
   border-right-style: solid;
   border-color: rgb(243, 241, 241);
+  z-index: 100;
+}
+
+.sidebar-info {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-info img {
+  width: 25px;
+}
+
+.sidebar-info:hover {
+  background-color: rgb(238, 235, 235);
+}
+
+.sidebar-info div {
+  font-size: 10px;
+  font-family: Roboto, Arial;
 }
