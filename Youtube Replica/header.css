@@ -11,6 +11,7 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: rgb(204, 204, 204);
+  z-index: 100;
 }
 
 .left-section {
@@ -113,4 +114,24 @@
   border-width: 0px;
   background-color: rgb(238, 238, 238);
   border-radius: 1000px;
+}
+
+.notifications {
+  position: relative;
+}
+
+.notification-counter {
+  position: absolute;
+  background-color: rgb(209, 23, 23);
+  color: white;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 10px;
 }
