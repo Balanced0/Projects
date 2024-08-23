@@ -21,6 +21,7 @@
 
 .sidebar-info img {
   width: 25px;
+  cursor: pointer;
 }
 
 .sidebar-info:hover {

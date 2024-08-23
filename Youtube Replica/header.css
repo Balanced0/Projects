@@ -38,34 +38,40 @@
 .option-menu {
   width: 25px;
   padding-left: 25px;
+  cursor: pointer;
 }
 
 .YouTube {
   width: 86px;
   padding-left: 19px;
+  cursor: pointer;
 }
 
 .upload-icon {
   width: 24px;
   margin-right: 16px;
+  cursor: pointer;
 }
 
 .youtube-apps {
   width: 24px;
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .notification {
   width: 24px;
   margin-right: 10px;
   margin-left: 16px;
+  cursor: pointer;
 }
 
 .account-logo {
   width: 32px;
   margin-left: 16px;
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .searchbar {
@@ -92,6 +98,7 @@
   padding-bottom: 5px;
   padding-left: 12px;
   padding-right: 12px;
+  cursor: pointer;
 }
 
 .mic-logo {
@@ -100,6 +107,7 @@
   padding-bottom: 5px;
   padding-left: 2px;
   padding-right: 2px;
+  cursor: pointer;
 }
 
 .magnifying {
